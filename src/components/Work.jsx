@@ -322,7 +322,7 @@ const Work = () => {
                React JS Application-Hooks
               </span>
                             <div className='pt-8 text-center'>
-                                <a href='https://github.com/Alexandra2888/Robofriends-hooks'>
+                                <a href='https://robofriends-hooks-reactjs.netlify.app/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
                                     </button>
