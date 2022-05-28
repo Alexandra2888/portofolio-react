@@ -14,7 +14,8 @@ import weather from '../assets/weather.png';
 import forum from '../assets/forum.png';
 import brain from '../assets/brain.png';
 import map from '../assets/map.png';
-import projects from '../assets/projects.png'
+import projects from '../assets/projects.png';
+import noteballs from "../assets/noteballs.png"
 
 
 const Work = () => {
@@ -418,6 +419,7 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
+
                     <div
                         style={{ backgroundImage: `url(${projects})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -436,7 +438,30 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div
+                    style={{ backgroundImage: `url(${noteballs})` }}
+                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                >
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+               Vue JS-Composition API-Pinia
+              </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://noteballs.netlify.app/#/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo
+                                </button>
+                            </a>
+                            <a href='https://github.com/Alexandra2888/NoteBalls'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
 
