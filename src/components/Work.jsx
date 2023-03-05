@@ -14,7 +14,19 @@ import weather from '../assets/weather.png';
 import forum from '../assets/forum.png';
 import brain from '../assets/brain.png';
 import map from '../assets/map.png';
-import projects from '../assets/projects.png'
+import projects from '../assets/projects.png';
+import trilo from '../assets/trilo.png';
+import zeal from "../assets/zeal.png";
+import natours from "../assets/natours.png";
+import nexter from "../assets/nexter.jpg";
+import phoxul from "../assets/phoxul.png";
+import gymantic from "../assets/gYmantic.png";
+import scarlet from "../assets/scarlet.png";
+import scramble from "../assets/scramble.png";
+import film from "../assets/film.png";
+
+
+
 
 
 const Work = () => {
@@ -63,7 +75,7 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Javascript Application
+                HTML, CSS, JS 
               </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://js-music-app-js.netlify.app/'>
@@ -87,7 +99,7 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                HTML/CSS Application
+                HTML, CSS
               </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://promotional-landing-page.netlify.app/'>
@@ -157,7 +169,7 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Javascript Application
+                HTML, CSS, JS
               </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://project-management-appjs.netlify.app/login.html"'>
@@ -221,29 +233,9 @@ const Work = () => {
                         </div>
                     </div>
                     {/* Grid Item */}
-                    <div
-                        style={{ backgroundImage: `url(${recruit})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                    >
-                        {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                 Vue JS Application
-              </span>
-                            <div className='pt-8 text-center'>
-                                <a href='https://recruit-fe.netlify.app/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
-                                    </button>
-                                </a>
-                                <a href='https://github.com/bng-ferendia-it/recruit-fe'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Code
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                   
+
+                    
                     <div
                         style={{ backgroundImage: `url(${robofriends})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -275,7 +267,7 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                HTML/CSS Application
+                HTML, CSS
               </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://elegant-bohr-4c5d75.netlify.app/'>
@@ -418,6 +410,8 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
+
+
                     <div
                         style={{ backgroundImage: `url(${projects})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -436,6 +430,226 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div
+                        style={{ backgroundImage: `url(${trilo})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                HTML, CSS 
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://trillo28.netlify.app/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='https://github.com/Alexandra2888/Trillo'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div
+                        style={{ backgroundImage: `url(${zeal})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                HTML, CSS, JS
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://zeal28.netlify.app/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='https://github.com/Alexandra2888/Zeal'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div
+                        style={{ backgroundImage: `url(${natours})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                HTML, CSS 
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://natours28.netlify.app/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='https://github.com/Alexandra2888/Natours'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        style={{ backgroundImage: `url(${phoxul})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                HTML, CSS, JS
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://phoxul-studio28.netlify.app/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='https://github.com/Alexandra2888/Phoxul_Studio'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        style={{ backgroundImage: `url(${nexter})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                HTML, CSS
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://nexter28.netlify.app/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='https://github.com/Alexandra2888/Nexter'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div
+                        style={{ backgroundImage: `url(${gymantic})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                HTML, CSS
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://gymantic28.netlify.app/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='https://github.com/Alexandra2888/gYmantic'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+
+                    <div
+                        style={{ backgroundImage: `url(${scarlet})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                HTML, CSS
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://portofolio-website28.netlify.app/#'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='https://github.com/Alexandra2888/Scarlett-portofolio'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        style={{ backgroundImage: `url(${scramble})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                HTML, CSS
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://scramble-word.netlify.app/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='https://github.com/Alexandra2888/Scramble'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div
+                        style={{ backgroundImage: `url(${film})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Angular 14
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://github.com/Alexandra2888/film-app'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
 
                 </div>
 
