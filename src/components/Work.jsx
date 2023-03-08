@@ -7,7 +7,6 @@ import music from '../assets/music-app.png';
 import play from '../assets/play.png';
 import management from '../assets/project-management.png';
 import quiz from '../assets/quiz-app.png';
-import recruit from '../assets/recruit.png';
 import robofriends from '../assets/robofriends.png';
 import recipe from '../assets/recipe.png';
 import weather from '../assets/weather.png';
